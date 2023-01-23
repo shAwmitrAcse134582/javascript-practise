@@ -1,15 +1,15 @@
-// 1.ludu khelar random score
+// *1.ludu khelar random score
 function getRandomFunction(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 console.log(getRandomFunction(1, 6));
 
 
-// 2.kivabe friend der nam alphabatetically sajano jay
+//* 2.kivabe friend der nam alphabatetically sajano jay
 const student = ["shawmitra", "kawshik", "monisha", "arnab"];
 console.log(student.sort());
 
-// 3.kiavbe roll number order onujai sajano jay
+//* 3.kiavbe roll number order onujai sajano jay
 
 const roll = [20, 10, 4, 3, 2, 1, 7, 8, 9];
 
@@ -18,7 +18,7 @@ console.log(roll.sort(function (a, b) {
     return a - b;
 }))
 
-// 4.check leap year or not!
+//* 4.check leap year or not!
 function isLeapyear(year) {
     if (year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0)) {
 
@@ -47,7 +47,7 @@ function countVowel(sentence) {
 
 console.log(countVowel("My name Is Shawmitra das Dwip"));
 
-// 6.find out duplicate value
+//* 6.find out duplicate value
 
 const numbers = [1, 2, 3, 4, 5, 1, 2, 3];
 
@@ -57,7 +57,7 @@ const duplicates = numbers.filter(function (value, index, array) {
 console.log(duplicates);
 
 
-// 7.find out unique Number
+//* 7.find out unique Number
 
 const numbers = [1, 2, 3, 4, 5, 1, 2, 3];
 
